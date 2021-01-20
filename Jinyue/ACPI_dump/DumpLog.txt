@@ -1,0 +1,114 @@
+43:652  0:504  Found BIOS RSDP at F0010
+43:652  0:000  Printing ACPI tables from RSDP F0010 ...
+43:652  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+43:652  0:000    (Xsdt: 7BF80080, Rsdt: 7BF80028)
+43:652  0:000    7BF80080: 'XSDT', 'A M I', Rev: 1, Len: 132
+43:652  0:000    7BF80028: 'RSDT', 'A M I', Rev: 1, Len: 84
+43:652  0:000    Tables in Xsdt: 12
+43:652  0:000    0. 7BF88C80: 'FACP', 'A M I', Rev: 5, Len: 268
+43:652  0:000        (Dsdt: 7BF801A0, Facs: 7C057F80, XDsdt: 7BF801A0, XFacs: 0)
+43:652  0:000        7BF801A0: 'DSDT', 'A M I', Rev: 2, Len: 35545
+43:653  0:001        7C057F80: 'FACS', Ver: 2, Len: 64
+43:653  0:000    1. 7BF88D90: 'APIC', 'A M I', Rev: 3, Len: 312
+43:653  0:000    2. 7BF88EC8: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:653  0:000    3. 7BF88F10: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:653  0:000    4. 7BF88FB0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+43:653  0:000    5. 7BF88FF0: 'HPET', 'A M I', Rev: 1, Len: 56
+43:653  0:000    6. 7BF89028: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+43:653  0:000    7. 7C0563A8: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:653  0:000    8. 7C0563E0: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+43:653  0:000    9. 7C056510: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+43:653  0:000    10. 7C056740: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+43:653  0:000    11. 7C0567E8: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+43:653  0:000    Tables in Rsdt: 12
+43:653  0:000    0. 7BF80118: 'FACP', 'A M I', Rev: 2, Len: 132
+43:653  0:000        (Dsdt: 7BF801A0, Facs: 7C057F40)
+43:653  0:000        7BF801A0: 'DSDT', 'A M I', Rev: 2, Len: 35545
+43:655  0:001        7C057F40: 'FACS', Ver: 0, Len: 64
+43:655  0:000    1. 7BF88D90: 'APIC', 'A M I', Rev: 3, Len: 312
+43:655  0:000    2. 7BF88EC8: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:655  0:000    3. 7BF88F10: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:655  0:000    4. 7BF88FB0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+43:655  0:000    5. 7BF88FF0: 'HPET', 'A M I', Rev: 1, Len: 56
+43:655  0:000    6. 7BF89028: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+43:655  0:000    7. 7C0563A8: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:655  0:000    8. 7C0563E0: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+43:655  0:000    9. 7C056510: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+43:655  0:000    10. 7C056740: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+43:655  0:000    11. 7C0567E8: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+43:655  0:000  Found UEFI Acpi 2.0 RSDP at 7BF80000
+43:655  0:000  Saving ACPI tables from RSDP 7BF80000 to EFI\CLOVER\ACPI\origin ...
+43:655  0:000   7BF80000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+43:655  0:000    (Xsdt: 7BF80080, Rsdt: 7BF80028)
+43:655  0:000    7BF80080: 'XSDT', 'A M I', Rev: 1, Len: 132
+43:655  0:000    7BF80028: 'RSDT', 'A M I', Rev: 1, Len: 84
+43:655  0:000    Tables in Xsdt: 12
+43:655  0:000    0. 7BF88C80: 'FACP', 'A M I', Rev: 5, Len: 268
+43:655  0:000        (Dsdt: 7BF801A0, Facs: 7C057F80, XDsdt: 7BF801A0, XFacs: 0)
+43:655  0:000        7BF801A0: 'DSDT', 'A M I', Rev: 2, Len: 35545
+43:656  0:001        7C057F80: 'FACS', Ver: 2, Len: 64
+43:656  0:000    1. 7BF88D90: 'APIC', 'A M I', Rev: 3, Len: 312
+43:656  0:000    2. 7BF88EC8: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:656  0:000    3. 7BF88F10: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:656  0:000    4. 7BF88FB0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+43:656  0:000    5. 7BF88FF0: 'HPET', 'A M I', Rev: 1, Len: 56
+43:656  0:000    6. 7BF89028: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+43:656  0:000    7. 7C0563A8: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:656  0:000    8. 7C0563E0: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+43:656  0:000    9. 7C056510: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+43:656  0:000    10. 7C056740: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+43:656  0:000    11. 7C0567E8: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+43:656  0:000    Tables in Rsdt: 12
+43:656  0:000    0. 7BF80118: 'FACP', 'A M I', Rev: 2, Len: 132
+43:656  0:000        (Dsdt: 7BF801A0, Facs: 7C057F40)
+43:656  0:000        7BF801A0: 'DSDT', 'A M I', Rev: 2, Len: 35545
+43:657  0:001        7C057F40: 'FACS', Ver: 0, Len: 64
+43:657  0:000    1. 7BF88D90: 'APIC', 'A M I', Rev: 3, Len: 312
+43:657  0:000    2. 7BF88EC8: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:657  0:000    3. 7BF88F10: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:657  0:000    4. 7BF88FB0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+43:657  0:000    5. 7BF88FF0: 'HPET', 'A M I', Rev: 1, Len: 56
+43:657  0:000    6. 7BF89028: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+43:657  0:000    7. 7C0563A8: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:657  0:000    8. 7C0563E0: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+43:657  0:000    9. 7C056510: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+43:657  0:000    10. 7C056740: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+43:657  0:000    11. 7C0567E8: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+43:657  0:000  Found UEFI Acpi 1.0 RSDP at 7BF80000
+43:657  0:000  Printing ACPI tables from RSDP 7BF80000 ...
+43:657  0:000   7BF80000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+43:657  0:000    (Xsdt: 7BF80080, Rsdt: 7BF80028)
+43:657  0:000    7BF80080: 'XSDT', 'A M I', Rev: 1, Len: 132
+43:657  0:000    7BF80028: 'RSDT', 'A M I', Rev: 1, Len: 84
+43:657  0:000    Tables in Xsdt: 12
+43:657  0:000    0. 7BF88C80: 'FACP', 'A M I', Rev: 5, Len: 268
+43:657  0:000        (Dsdt: 7BF801A0, Facs: 7C057F80, XDsdt: 7BF801A0, XFacs: 0)
+43:657  0:000        7BF801A0: 'DSDT', 'A M I', Rev: 2, Len: 35545
+43:658  0:001        7C057F80: 'FACS', Ver: 2, Len: 64
+43:658  0:000    1. 7BF88D90: 'APIC', 'A M I', Rev: 3, Len: 312
+43:658  0:000    2. 7BF88EC8: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:658  0:000    3. 7BF88F10: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:658  0:000    4. 7BF88FB0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+43:658  0:000    5. 7BF88FF0: 'HPET', 'A M I', Rev: 1, Len: 56
+43:658  0:000    6. 7BF89028: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+43:658  0:000    7. 7C0563A8: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:658  0:000    8. 7C0563E0: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+43:658  0:000    9. 7C056510: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+43:658  0:000    10. 7C056740: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+43:658  0:000    11. 7C0567E8: 'BERT', 'AMI BERT', Rev: 1, Len: 48
+43:658  0:000    Tables in Rsdt: 12
+43:658  0:000    0. 7BF80118: 'FACP', 'A M I', Rev: 2, Len: 132
+43:658  0:000        (Dsdt: 7BF801A0, Facs: 7C057F40)
+43:658  0:000        7BF801A0: 'DSDT', 'A M I', Rev: 2, Len: 35545
+43:659  0:001        7C057F40: 'FACS', Ver: 0, Len: 64
+43:659  0:000    1. 7BF88D90: 'APIC', 'A M I', Rev: 3, Len: 312
+43:659  0:000    2. 7BF88EC8: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:659  0:000    3. 7BF88F10: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:659  0:000    4. 7BF88FB0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+43:659  0:000    5. 7BF88FF0: 'HPET', 'A M I', Rev: 1, Len: 56
+43:659  0:000    6. 7BF89028: 'SSDT', 'CpuPm', Rev: 2, Len: 840576
+43:659  0:000    7. 7C0563A8: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:659  0:000    8. 7C0563E0: 'EINJ', 'AMI EINJ', Rev: 1, Len: 304
+43:659  0:000    9. 7C056510: 'ERST', 'AMI ERST', Rev: 1, Len: 560
+43:659  0:000    10. 7C056740: 'HEST', 'AMI HEST', Rev: 1, Len: 168
+43:659  0:000    11. 7C0567E8: 'BERT', 'AMI BERT', Rev: 1, Len: 48
